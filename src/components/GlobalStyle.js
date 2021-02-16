@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import colors from '../images/colors.jpg';
 
 const GlobalStyle = createGlobalStyle`
 
@@ -9,7 +10,6 @@ const GlobalStyle = createGlobalStyle`
 }
 
 body {
-  background: white;
   background-size: cover;
   margin: 0;
 }
@@ -23,7 +23,7 @@ a {
   padding: 12px 36px;
   display: inline-block;
   transition: 300ms; 
-  background: rgb(52, 212, 218);
+  background: lightgreen;
   }
   a:hover {
   transform: translate(-8px);
@@ -42,5 +42,7 @@ a {
   
   }
 `;
+
+
 
 export default GlobalStyle;
