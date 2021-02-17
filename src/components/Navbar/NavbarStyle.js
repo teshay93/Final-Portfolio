@@ -1,14 +1,32 @@
 import styled from 'styled-components';
 
 export const Nav = styled.div`
-background: lightgreen;
-height: 80px;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 1.2rem;
-position: sticky;
-top: 0;
+  min-height: 10vh;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10rem;
+
+  h1 {
+
+  } 
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+  }
+
+  li {
+    padding-left: 8rem;
+    position: relative;
+    font-family: "Brygada 1918", serif;
+    font-size: 20px;
+  }
 `;
 
 export const NavbarContainer = styled.div`

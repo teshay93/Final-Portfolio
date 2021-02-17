@@ -1,13 +1,25 @@
 import React from "react";
-import { Nav, NavbarContainer } from './NavbarStyle';
+import { Nav } from './NavbarStyle';
 
 const Navbar = () => {
   return (
-    <>
-     <Nav>
-       <NavbarContainer />
-     </Nav>
-    </>
+   
+      <Nav>
+        <h1><a href="#">LOGO</a></h1>
+          <ul>
+            <li>
+              <a href="#">Skills</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        
+      </Nav>
+    
   );
 };
 
