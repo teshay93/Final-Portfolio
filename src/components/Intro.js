@@ -45,7 +45,7 @@ const Intro = () => {
 };
 
 const Container = styled.div`
-  min-height: 90vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,7 +96,7 @@ const Image = styled.div`
     width: 400px;
     height: 400px;
     border-radius: 50%;
-    box-shadow: 0px 7px 7px rgb(138, 136, 136);
+    box-shadow: 0px 7px 7px rgb(000, 000, 000);
   }
 `;
 
